@@ -1,0 +1,21 @@
+.card {
+    /* display:inline-block; */
+    display: flex;
+}
+
+.row {
+    margin-left: 5px !important;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.floatRight {
+    float: right;
+    margin-right: 1em;
+}
+span{
+    padding-right: 3px;
+}

@@ -1,0 +1,9 @@
+<div class="main ">
+    <h5 class="heading">{{ stateDate.name | stateName}}</h5>
+    <div class="databody">
+        <p><b>New Cases - </b>{{newCases}}</p>
+        <p><b>Recovered - </b>{{stateDate?.latestInfo?.total?.recovered}}</p>
+        <p><b>Deceased - </b>{{stateDate?.latestInfo?.total?.deceased}}</p>
+        <p><b>Total - </b>{{stateDate?.latestInfo?.total?.confirmed}}</p>
+    </div>
+</div>

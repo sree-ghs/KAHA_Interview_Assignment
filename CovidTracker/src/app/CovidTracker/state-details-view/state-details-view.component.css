@@ -1,0 +1,12 @@
+.leftFloat {
+    float: left;
+}
+
+.rightFloat {
+    float: right;
+}
+button {
+    border: 1px solid deeppink;
+    margin-right: 2px;
+    margin-top: 5px;;
+}

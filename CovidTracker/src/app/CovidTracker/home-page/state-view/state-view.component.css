@@ -1,0 +1,17 @@
+.main{
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    width: 15em;
+    margin-right: 2em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+}
+
+.heading{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.databody {
+    margin-left: 5%;
+}

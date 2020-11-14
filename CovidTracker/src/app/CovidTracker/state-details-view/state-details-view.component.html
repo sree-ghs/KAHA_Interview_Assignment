@@ -1,0 +1,23 @@
+<div>
+  <div class="leftFloat">
+    <h1>{{ stateName | stateName }}</h1>
+  </div>
+  <div class="rightFloat">
+    <button (click)="showByTotal()">Total</button>
+    <button (click)="showByRecovered()">Recovered</button> 
+    <button (click)="showByDeceased()">Deceased</button>
+  </div>
+</div>
+
+
+<div style="display: block;" *ngIf="viewChart">
+    <canvas baseChart width="400" height="150"
+      [datasets]="lineChartData"
+      [labels]="lineChartLabels"
+      [options]="lineChartOptions"
+      [legend]="lineChartLegend"
+      [chartType]="lineChartType">
+    </canvas>
+  </div>
+
+  

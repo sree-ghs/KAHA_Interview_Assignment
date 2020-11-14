@@ -1,0 +1,13 @@
+<div class="heading">
+    <h1 > Covid-19 Tracker </h1>
+    <div class="floatRight" (click)="sortArray()">
+        <span>Sort by Total Case</span>
+        <i class="fa fa-sort" ></i>
+    </div>
+</div>
+<div class="row">
+    <div *ngFor="let state of stateTodayDataList; let i = index" class="col-md-3">
+        <app-state-view [stateDate]="state" (click)="openStateGraph(state)"></app-state-view>
+    </div>
+</div>
+
